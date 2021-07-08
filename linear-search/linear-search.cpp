@@ -6,6 +6,7 @@
 // uses equality as the predicate
 // return index of the location where the value is found
 // otherwise return -1
+// takes O(n) time
 int linearSearch(const std::vector<int>& nums, int val) {
 
 	for (int i = 0; i < nums.size(); i++) {
