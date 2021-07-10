@@ -7,7 +7,6 @@
 // otherwise returns -1
 // the vector must be sorted for it to work
 // runs in O(log n) time
-
 int binarySearch(const std::vector<int>& nums, int val) {
 	int start = 0;
 	int end = nums.size() - 1;
